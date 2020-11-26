@@ -47,6 +47,10 @@ if((CMAKE_SYSTEM_NAME MATCHES "WindowsStore") AND (CMAKE_SYSTEM_VERSION MATCHES 
 	set(CMAKE_WINDOWS_VERSION "WIN10")
 endif()
 
+set(LIBUSB_1_LIBRARIES "C:/Program Files/libusb-1.0.23/MS64/static/libusb-1.0.lib")
+set(LIBUSB_1_INCLUDE_DIRS "C:/Program Files/libusb-1.0.23/include/libusb-1.0")
+
+
 # Check for cmake compatibility (enable/disable features)
 include(CheckCmakeCompat)
 

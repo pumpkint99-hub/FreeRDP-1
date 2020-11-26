@@ -43,6 +43,7 @@ SET(_OPENSSL_ROOT_PATHS
   "C:/OpenSSL/"
   "C:/OpenSSL-Win32/"
   "C:/OpenSSL-Win64/"
+  "C:/Program Files/OpenSSL-Win64"
   "/obj/local/armeabi/"
   "/obj/local/armeabi-v7a/"
   )
