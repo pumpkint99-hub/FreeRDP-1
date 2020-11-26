@@ -1,0 +1,765 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/freerdp-client3.dll"
+		},
+		{
+			"path" : "Debug/freerdp-client3.lib"
+		},
+		{
+			"path" : "Debug/freerdp-client3.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"client/common/CMakeLists.txt",
+			"channels/urbdrc/client/libusb/CMakeLists.txt",
+			"channels/rdpsnd/client/winmm/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 4
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 33,
+				"parent" : 6
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 913,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 960,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 961,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 962,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 1006,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 1007,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 1046,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 1047,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS  /Gd /W3 -DWINPR_DLL /MDd /Zi /Ob2 /Od /RTC1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "FREERDP_EXPORTS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "UNICODE"
+				},
+				{
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"define" : "WINPR_EXPORTS"
+				},
+				{
+					"define" : "WINVER=0x0601"
+				},
+				{
+					"define" : "WITH_OPENSSL"
+				},
+				{
+					"define" : "_AMD64_"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"define" : "_WINSOCK_DEPRECATED_NO_WARNINGS"
+				},
+				{
+					"define" : "freerdp_client_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/winpr/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/rdtk/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/rdtk/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/channels/client"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/channels/client"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				5,
+				6,
+				8
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "FREERDP_EXPORTS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "UNICODE"
+				},
+				{
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"define" : "WINPR_EXPORTS"
+				},
+				{
+					"define" : "WINVER=0x0601"
+				},
+				{
+					"define" : "WITH_OPENSSL"
+				},
+				{
+					"define" : "_AMD64_"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"define" : "_WINSOCK_DEPRECATED_NO_WARNINGS"
+				},
+				{
+					"define" : "freerdp_client_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/winpr/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/rdtk/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/rdtk/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/channels/client"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/channels/client"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "winpr::@e18be0b624d3dede631e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "freerdp::@9913f3e23acaebaec13a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "video-client::@dfc636478716e5f5724a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "drdynvc-client::@d8274a234d7f799d53c1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rdpsnd-client::@354fdd8f647aadc8a675"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rdpsnd-client-winmm::@1bf1ff64b217f543dfa1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "remdesk-client::@50e3189e998ab8dcc5d7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "urbdrc-client-libusb::@2ee620e5655640fc7b19"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "smartcard-client::@7973b92ff12f860b6948"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "urbdrc-client::@0f373dd4aac21c9cf216"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rdpei-client::@301ee317a5fce4451918"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rdp2tcp-client::@23a78ca17ad1f42a96eb"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rdpgfx-client::@e79c8bd8cbcef571774c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rdpsnd-client-fake::@5802e56099c24c42e096"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rdpdr-client::@97289811ea6e53e4dcb5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "encomsp-client::@9cc3084035dad9f1e4ff"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "printer-client::@bab1ea9a89c0c8b78b0f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "echo-client::@23509bb4f70b1c17e8ba"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "printer-client-win::@baeb7cc89c25ad751f36"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "geometry-client::@320347d7ae2c683af2c0"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rail-client::@d07bdc3ff9c5c5b128ec"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "disp-client::@5cc5bda5546bcb0b1c77"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "cliprdr-client::@4107d1157b804a0f4d18"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "audin-client-winmm::@1b925916bf7a524c9fd7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "audin-client::@22ce11e3e7fb38b08753"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "drive-client::@9d1495e2c991e5fd3294"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Client/Common"
+	},
+	"id" : "freerdp-client::@259b6c10da3fdefecb32",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/install/x64-Debug(기본값)"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\drdynvc-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\remdesk-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\rdpsnd-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\rdpdr-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\rdp2tcp-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\rail-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\encomsp-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\cliprdr-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\video-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\urbdrc-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\rdpsnd-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\rdpgfx-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\rdpei-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\geometry-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\echo-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\disp-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\audin-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\smartcard-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\printer-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\drive-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\urbdrc-client-libusb.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\rdpsnd-client-winmm.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\rdpsnd-client-fake.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\printer-client-win.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\audin-client-winmm.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\urbdrc-client.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "\"C:\\Program Files\\libusb-1.0.23\\MS64\\static\\libusb-1.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\freerdp3.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\winpr3.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ntdsapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "crypt32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "dbghelp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "rpcrt4.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "credui.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "shlwapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "winmm.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "freerdp-client",
+	"nameOnDisk" : "freerdp-client3.dll",
+	"paths" : 
+	{
+		"build" : "client/common",
+		"source" : "client/common"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				5,
+				6,
+				8,
+				10
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				7,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "client/common/client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "client/common/cmdline.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "client/common/compatibility.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "client/common/compatibility.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "client/common/file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "client/common/geometry.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug(기본값)/channels/client/tables.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "channels/client/tables.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "channels/client/addin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "channels/client/addin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "out/build/x64-Debug(기본값)/client/common/version.rc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,2 @@
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\Debug\echo-client.pdb
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\echo\client\echo-client.dir\Debug\echo-client.pdb

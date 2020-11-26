@@ -1,0 +1,2 @@
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\Debug\printer-client-win.pdb
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\printer\client\win\printer-client-win.dir\Debug\printer-client-win.pdb

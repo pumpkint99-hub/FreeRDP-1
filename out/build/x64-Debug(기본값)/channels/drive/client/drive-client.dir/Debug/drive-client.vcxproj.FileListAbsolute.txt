@@ -1,0 +1,2 @@
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\Debug\drive-client.pdb
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\drive\client\drive-client.dir\Debug\drive-client.pdb

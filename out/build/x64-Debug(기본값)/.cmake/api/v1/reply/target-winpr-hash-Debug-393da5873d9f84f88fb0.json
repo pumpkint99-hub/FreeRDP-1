@@ -1,0 +1,363 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/winpr-hash.exe"
+		},
+		{
+			"path" : "Debug/winpr-hash.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"winpr/tools/hash-cli/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 913,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 960,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 961,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 962,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1006,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1007,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS  /Gd /W3 -DWINPR_DLL -DWINPR_DLL -DWINPR_EXPORTS /MDd /Zi /Ob2 /Od /RTC1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "FREERDP_EXPORTS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "UNICODE"
+				},
+				{
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"define" : "WINPR_EXPORTS"
+				},
+				{
+					"define" : "WINVER=0x0601"
+				},
+				{
+					"define" : "WITH_OPENSSL"
+				},
+				{
+					"define" : "_AMD64_"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"define" : "_WINSOCK_DEPRECATED_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/winpr/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "FREERDP_EXPORTS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "UNICODE"
+				},
+				{
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"define" : "WINPR_EXPORTS"
+				},
+				{
+					"define" : "WINVER=0x0601"
+				},
+				{
+					"define" : "WITH_OPENSSL"
+				},
+				{
+					"define" : "_AMD64_"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"define" : "_WINSOCK_DEPRECATED_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/winpr/include"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "winpr::@e18be0b624d3dede631e"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "WinPR/Tools"
+	},
+	"id" : "winpr-hash::@aa39a71306b2dddca349",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/install/x64-Debug(기본값)"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS  /Gd /W3 -DWINPR_DLL -DWINPR_DLL -DWINPR_EXPORTS /MDd /Zi /Ob2 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\Debug\\winpr3.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ntdsapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "crypt32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "dbghelp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "rpcrt4.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "credui.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "shlwapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "winpr-hash",
+	"nameOnDisk" : "winpr-hash.exe",
+	"paths" : 
+	{
+		"build" : "winpr/tools/hash-cli",
+		"source" : "winpr/tools/hash-cli"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/tools/hash-cli/hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "out/build/x64-Debug(기본값)/winpr/tools/hash-cli/version.rc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,2 @@
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\Debug\rdp2tcp-client.pdb
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\rdp2tcp\client\rdp2tcp-client.dir\Debug\rdp2tcp-client.pdb

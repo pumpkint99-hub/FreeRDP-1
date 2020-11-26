@@ -1,0 +1,254 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_494d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W2 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_494d0.dir\Debug\\" /Fd"cmTC_494d0.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_494d0.vcxproj]
+
+
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e5abd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_UNISTD_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5abd.dir\Debug\\" /Fd"cmTC_e5abd.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_e5abd.vcxproj]
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files execinfo.h exist failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_39dcb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_EXECINFO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39dcb.dir\Debug\\" /Fd"cmTC_39dcb.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_EXECINFO_H.c"
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_EXECINFO_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'execinfo.h': No such file or directory [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_39dcb.vcxproj]
+
+
+Source:
+/* */
+#include <execinfo.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/modem.h exist failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c78b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_SYS_MODEM_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c78b3.dir\Debug\\" /Fd"cmTC_c78b3.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYS_MODEM_H.c"
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYS_MODEM_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/modem.h': No such file or directory [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_c78b3.vcxproj]
+
+
+Source:
+/* */
+#include <sys/modem.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/filio.h exist failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_048d7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_SYS_FILIO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_048d7.dir\Debug\\" /Fd"cmTC_048d7.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c"
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/filio.h': No such file or directory [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_048d7.vcxproj]
+
+
+Source:
+/* */
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/sockio.h exist failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_50357.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_SYS_SOCKIO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50357.dir\Debug\\" /Fd"cmTC_50357.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKIO_H.c"
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKIO_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/sockio.h': No such file or directory [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_50357.vcxproj]
+
+
+Source:
+/* */
+#include <sys/sockio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/strtio.h exist failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d901f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_SYS_STRTIO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d901f.dir\Debug\\" /Fd"cmTC_d901f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STRTIO_H.c"
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STRTIO_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/strtio.h': No such file or directory [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_d901f.vcxproj]
+
+
+Source:
+/* */
+#include <sys/strtio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/select.h exist failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f4b3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_SYS_SELECT_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4b3a.dir\Debug\\" /Fd"cmTC_f4b3a.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c"
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/select.h': No such file or directory [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_f4b3a.vcxproj]
+
+
+Source:
+/* */
+#include <sys/select.h>
+
+
+int main(void){return 0;}
+
+Determining if files syslog.h exist failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_aad14.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_SYSLOG_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aad14.dir\Debug\\" /Fd"cmTC_aad14.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYSLOG_H.c"
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CheckIncludeFiles\HAVE_SYSLOG_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'syslog.h': No such file or directory [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_aad14.vcxproj]
+
+
+Source:
+/* */
+#include <syslog.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_TM_GMTOFF failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_64887.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_TM_GMTOFF /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64887.dir\Debug\\" /Fd"cmTC_64887.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\src.c"
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\src.c(6,34): error C2039: 'tm_gmtoff': 'tm'의 멤버가 아닙니다. [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_64887.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h(22): message : 'tm' 선언을 참조하십시오. [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_64887.vcxproj]
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tm_gmtoff);
+  return 0;
+}
+
+Determining if the function timer_create exists failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_47685.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WINPR_DLL /D WINPR_EXPORTS /D CHECK_FUNCTION_EXISTS=timer_create /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47685.dir\Debug\\" /Fd"cmTC_47685.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 'rt.lib' 파일을 열 수 없습니다. [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_47685.vcxproj]
+
+
+
+Determining if the function timer_delete exists failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9b44e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WINPR_DLL /D WINPR_EXPORTS /D CHECK_FUNCTION_EXISTS=timer_delete /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b44e.dir\Debug\\" /Fd"cmTC_9b44e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 'rt.lib' 파일을 열 수 없습니다. [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_9b44e.vcxproj]
+
+
+
+Determining if the function timer_settime exists failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b7778.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WINPR_DLL /D WINPR_EXPORTS /D CHECK_FUNCTION_EXISTS=timer_settime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7778.dir\Debug\\" /Fd"cmTC_b7778.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 'rt.lib' 파일을 열 수 없습니다. [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_b7778.vcxproj]
+
+
+
+Determining if the function timer_gettime exists failed with the following output:
+Change Dir: C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_41ebd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WINPR_DLL /D WINPR_EXPORTS /D CHECK_FUNCTION_EXISTS=timer_gettime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41ebd.dir\Debug\\" /Fd"cmTC_41ebd.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 'rt.lib' 파일을 열 수 없습니다. [C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\CMakeTmp\cmTC_41ebd.vcxproj]
+
+
+

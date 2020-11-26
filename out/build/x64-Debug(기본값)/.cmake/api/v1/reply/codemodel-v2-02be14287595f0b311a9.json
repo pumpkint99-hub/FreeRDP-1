@@ -1,0 +1,1905 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						48,
+						49,
+						57,
+						59,
+						106
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "winpr",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						44
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "winpr",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "winpr/include",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "winpr/include"
+				},
+				{
+					"build" : "winpr/libwinpr",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "winpr/libwinpr/synch",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/synch"
+				},
+				{
+					"build" : "winpr/libwinpr/locale",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/locale"
+				},
+				{
+					"build" : "winpr/libwinpr/library",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/library"
+				},
+				{
+					"build" : "winpr/libwinpr/file",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/file"
+				},
+				{
+					"build" : "winpr/libwinpr/comm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/comm"
+				},
+				{
+					"build" : "winpr/libwinpr/pipe",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/pipe"
+				},
+				{
+					"build" : "winpr/libwinpr/interlocked",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/interlocked"
+				},
+				{
+					"build" : "winpr/libwinpr/security",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/security"
+				},
+				{
+					"build" : "winpr/libwinpr/environment",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/environment"
+				},
+				{
+					"build" : "winpr/libwinpr/crypto",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/crypto"
+				},
+				{
+					"build" : "winpr/libwinpr/registry",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/registry"
+				},
+				{
+					"build" : "winpr/libwinpr/credentials",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/credentials"
+				},
+				{
+					"build" : "winpr/libwinpr/path",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/path"
+				},
+				{
+					"build" : "winpr/libwinpr/io",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/io"
+				},
+				{
+					"build" : "winpr/libwinpr/memory",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/memory"
+				},
+				{
+					"build" : "winpr/libwinpr/input",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/input"
+				},
+				{
+					"build" : "winpr/libwinpr/shell",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/shell"
+				},
+				{
+					"build" : "winpr/libwinpr/heap",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/heap"
+				},
+				{
+					"build" : "winpr/libwinpr/utils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/utils"
+				},
+				{
+					"build" : "winpr/libwinpr/error",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/error"
+				},
+				{
+					"build" : "winpr/libwinpr/timezone",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/timezone"
+				},
+				{
+					"build" : "winpr/libwinpr/sysinfo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/sysinfo"
+				},
+				{
+					"build" : "winpr/libwinpr/pool",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/pool"
+				},
+				{
+					"build" : "winpr/libwinpr/handle",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/handle"
+				},
+				{
+					"build" : "winpr/libwinpr/thread",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/thread"
+				},
+				{
+					"build" : "winpr/libwinpr/winsock",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/winsock"
+				},
+				{
+					"build" : "winpr/libwinpr/sspi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/sspi"
+				},
+				{
+					"build" : "winpr/libwinpr/winhttp",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/winhttp"
+				},
+				{
+					"build" : "winpr/libwinpr/asn1",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/asn1"
+				},
+				{
+					"build" : "winpr/libwinpr/sspicli",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/sspicli"
+				},
+				{
+					"build" : "winpr/libwinpr/crt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/crt"
+				},
+				{
+					"build" : "winpr/libwinpr/bcrypt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/bcrypt"
+				},
+				{
+					"build" : "winpr/libwinpr/rpc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/rpc"
+				},
+				{
+					"build" : "winpr/libwinpr/credui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/credui"
+				},
+				{
+					"build" : "winpr/libwinpr/wtsapi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/wtsapi"
+				},
+				{
+					"build" : "winpr/libwinpr/dsparse",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/dsparse"
+				},
+				{
+					"build" : "winpr/libwinpr/wnd",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/wnd"
+				},
+				{
+					"build" : "winpr/libwinpr/smartcard",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/smartcard"
+				},
+				{
+					"build" : "winpr/libwinpr/nt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/nt"
+				},
+				{
+					"build" : "winpr/libwinpr/clipboard",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "winpr/libwinpr/clipboard"
+				},
+				{
+					"build" : "winpr/tools",
+					"childIndexes" : 
+					[
+						45,
+						46,
+						47
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "winpr/tools",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "winpr/tools/makecert",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 1,
+					"source" : "winpr/tools/makecert"
+				},
+				{
+					"build" : "winpr/tools/makecert-cli",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 1,
+					"source" : "winpr/tools/makecert-cli",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "winpr/tools/hash-cli",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 1,
+					"source" : "winpr/tools/hash-cli",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "include",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "libfreerdp",
+					"childIndexes" : 
+					[
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libfreerdp",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "libfreerdp/utils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 49,
+					"projectIndex" : 0,
+					"source" : "libfreerdp/utils"
+				},
+				{
+					"build" : "libfreerdp/common",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 49,
+					"projectIndex" : 0,
+					"source" : "libfreerdp/common"
+				},
+				{
+					"build" : "libfreerdp/gdi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 49,
+					"projectIndex" : 0,
+					"source" : "libfreerdp/gdi"
+				},
+				{
+					"build" : "libfreerdp/cache",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 49,
+					"projectIndex" : 0,
+					"source" : "libfreerdp/cache"
+				},
+				{
+					"build" : "libfreerdp/crypto",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 49,
+					"projectIndex" : 0,
+					"source" : "libfreerdp/crypto"
+				},
+				{
+					"build" : "libfreerdp/locale",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 49,
+					"projectIndex" : 0,
+					"source" : "libfreerdp/locale"
+				},
+				{
+					"build" : "libfreerdp/core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 49,
+					"projectIndex" : 0,
+					"source" : "libfreerdp/core"
+				},
+				{
+					"build" : "rdtk",
+					"childIndexes" : 
+					[
+						58
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "rdtk",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "rdtk/librdtk",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 57,
+					"projectIndex" : 2,
+					"source" : "rdtk/librdtk",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "channels",
+					"childIndexes" : 
+					[
+						60,
+						62,
+						64,
+						68,
+						70,
+						72,
+						77,
+						79,
+						81,
+						83,
+						85,
+						87,
+						90,
+						92,
+						94,
+						96,
+						98,
+						100,
+						102,
+						105
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "channels"
+				},
+				{
+					"build" : "channels/drdynvc",
+					"childIndexes" : 
+					[
+						61
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/drdynvc"
+				},
+				{
+					"build" : "channels/drdynvc/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 60,
+					"projectIndex" : 0,
+					"source" : "channels/drdynvc/client",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "channels/video",
+					"childIndexes" : 
+					[
+						63
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/video"
+				},
+				{
+					"build" : "channels/video/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 62,
+					"projectIndex" : 0,
+					"source" : "channels/video/client",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "channels/urbdrc",
+					"childIndexes" : 
+					[
+						65,
+						66
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/urbdrc"
+				},
+				{
+					"build" : "channels/urbdrc/common",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "channels/urbdrc/common",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "channels/urbdrc/client",
+					"childIndexes" : 
+					[
+						67
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "channels/urbdrc/client",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "channels/urbdrc/client/libusb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 66,
+					"projectIndex" : 0,
+					"source" : "channels/urbdrc/client/libusb",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "channels/smartcard",
+					"childIndexes" : 
+					[
+						69
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/smartcard"
+				},
+				{
+					"build" : "channels/smartcard/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "channels/smartcard/client",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "channels/remdesk",
+					"childIndexes" : 
+					[
+						71
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/remdesk"
+				},
+				{
+					"build" : "channels/remdesk/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 70,
+					"projectIndex" : 0,
+					"source" : "channels/remdesk/client",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "channels/rdpsnd",
+					"childIndexes" : 
+					[
+						73,
+						74
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/rdpsnd"
+				},
+				{
+					"build" : "channels/rdpsnd/common",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 72,
+					"projectIndex" : 0,
+					"source" : "channels/rdpsnd/common"
+				},
+				{
+					"build" : "channels/rdpsnd/client",
+					"childIndexes" : 
+					[
+						75,
+						76
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 72,
+					"projectIndex" : 0,
+					"source" : "channels/rdpsnd/client",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "channels/rdpsnd/client/winmm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 74,
+					"projectIndex" : 0,
+					"source" : "channels/rdpsnd/client/winmm",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "channels/rdpsnd/client/fake",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 74,
+					"projectIndex" : 0,
+					"source" : "channels/rdpsnd/client/fake",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "channels/rdpgfx",
+					"childIndexes" : 
+					[
+						78
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/rdpgfx"
+				},
+				{
+					"build" : "channels/rdpgfx/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 77,
+					"projectIndex" : 0,
+					"source" : "channels/rdpgfx/client",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "channels/rdpei",
+					"childIndexes" : 
+					[
+						80
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/rdpei"
+				},
+				{
+					"build" : "channels/rdpei/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 79,
+					"projectIndex" : 0,
+					"source" : "channels/rdpei/client",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "channels/rdpdr",
+					"childIndexes" : 
+					[
+						82
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/rdpdr"
+				},
+				{
+					"build" : "channels/rdpdr/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 81,
+					"projectIndex" : 0,
+					"source" : "channels/rdpdr/client",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "channels/rdp2tcp",
+					"childIndexes" : 
+					[
+						84
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/rdp2tcp"
+				},
+				{
+					"build" : "channels/rdp2tcp/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 83,
+					"projectIndex" : 0,
+					"source" : "channels/rdp2tcp/client",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "channels/rail",
+					"childIndexes" : 
+					[
+						86
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/rail"
+				},
+				{
+					"build" : "channels/rail/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 85,
+					"projectIndex" : 0,
+					"source" : "channels/rail/client",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "channels/printer",
+					"childIndexes" : 
+					[
+						88
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/printer"
+				},
+				{
+					"build" : "channels/printer/client",
+					"childIndexes" : 
+					[
+						89
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 87,
+					"projectIndex" : 0,
+					"source" : "channels/printer/client",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "channels/printer/client/win",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 88,
+					"projectIndex" : 0,
+					"source" : "channels/printer/client/win",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "channels/geometry",
+					"childIndexes" : 
+					[
+						91
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/geometry"
+				},
+				{
+					"build" : "channels/geometry/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 90,
+					"projectIndex" : 0,
+					"source" : "channels/geometry/client",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "channels/encomsp",
+					"childIndexes" : 
+					[
+						93
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/encomsp"
+				},
+				{
+					"build" : "channels/encomsp/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 92,
+					"projectIndex" : 0,
+					"source" : "channels/encomsp/client",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "channels/echo",
+					"childIndexes" : 
+					[
+						95
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/echo"
+				},
+				{
+					"build" : "channels/echo/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 94,
+					"projectIndex" : 0,
+					"source" : "channels/echo/client",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "channels/drive",
+					"childIndexes" : 
+					[
+						97
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/drive"
+				},
+				{
+					"build" : "channels/drive/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 96,
+					"projectIndex" : 0,
+					"source" : "channels/drive/client",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "channels/disp",
+					"childIndexes" : 
+					[
+						99
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/disp"
+				},
+				{
+					"build" : "channels/disp/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 98,
+					"projectIndex" : 0,
+					"source" : "channels/disp/client",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "channels/cliprdr",
+					"childIndexes" : 
+					[
+						101
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/cliprdr"
+				},
+				{
+					"build" : "channels/cliprdr/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 100,
+					"projectIndex" : 0,
+					"source" : "channels/cliprdr/client",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "channels/audin",
+					"childIndexes" : 
+					[
+						103
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/audin"
+				},
+				{
+					"build" : "channels/audin/client",
+					"childIndexes" : 
+					[
+						104
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 102,
+					"projectIndex" : 0,
+					"source" : "channels/audin/client",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "channels/audin/client/winmm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 0,
+					"source" : "channels/audin/client/winmm",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "channels/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "channels/client"
+				},
+				{
+					"build" : "client",
+					"childIndexes" : 
+					[
+						107,
+						108
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "client"
+				},
+				{
+					"build" : "client/common",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 106,
+					"projectIndex" : 0,
+					"source" : "client/common",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "client/Windows",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 106,
+					"projectIndex" : 0,
+					"source" : "client/Windows",
+					"targetIndexes" : 
+					[
+						31
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108
+					],
+					"name" : "FreeRDP",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47
+					],
+					"name" : "WinPR",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						32,
+						33,
+						34,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						57,
+						58
+					],
+					"name" : "RdTk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						24
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@687643d74b48f2d54ee6",
+					"jsonFile" : "target-ALL_BUILD-Debug-362cf622ca1ec25c40b3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "ALL_BUILD::@79e223430ae32adc4043",
+					"jsonFile" : "target-ALL_BUILD-Debug-0ef9be41609f4f0c4b8f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-cbe8c95bc41f6279f479.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 103,
+					"id" : "audin-client::@22ce11e3e7fb38b08753",
+					"jsonFile" : "target-audin-client-Debug-b5e03507ba5e7339a776.json",
+					"name" : "audin-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 104,
+					"id" : "audin-client-winmm::@1b925916bf7a524c9fd7",
+					"jsonFile" : "target-audin-client-winmm-Debug-309f37d6b362c4501879.json",
+					"name" : "audin-client-winmm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 101,
+					"id" : "cliprdr-client::@4107d1157b804a0f4d18",
+					"jsonFile" : "target-cliprdr-client-Debug-11bf2c2a3d973dc8ea9c.json",
+					"name" : "cliprdr-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 99,
+					"id" : "disp-client::@5cc5bda5546bcb0b1c77",
+					"jsonFile" : "target-disp-client-Debug-ef95b01ffbbf45652740.json",
+					"name" : "disp-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "drdynvc-client::@d8274a234d7f799d53c1",
+					"jsonFile" : "target-drdynvc-client-Debug-ca3fc54db4d10b626c03.json",
+					"name" : "drdynvc-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 97,
+					"id" : "drive-client::@9d1495e2c991e5fd3294",
+					"jsonFile" : "target-drive-client-Debug-e99e73b257ea3921f679.json",
+					"name" : "drive-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 95,
+					"id" : "echo-client::@23509bb4f70b1c17e8ba",
+					"jsonFile" : "target-echo-client-Debug-583933c24c892367f8e3.json",
+					"name" : "echo-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 93,
+					"id" : "encomsp-client::@9cc3084035dad9f1e4ff",
+					"jsonFile" : "target-encomsp-client-Debug-e4f0a1fbeed5b9304405.json",
+					"name" : "encomsp-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "freerdp::@9913f3e23acaebaec13a",
+					"jsonFile" : "target-freerdp-Debug-8a0e29c1d5a08fc3b843.json",
+					"name" : "freerdp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 107,
+					"id" : "freerdp-client::@259b6c10da3fdefecb32",
+					"jsonFile" : "target-freerdp-client-Debug-56e89225e2378d21239d.json",
+					"name" : "freerdp-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "geometry-client::@320347d7ae2c683af2c0",
+					"jsonFile" : "target-geometry-client-Debug-b68e8018aa20f6ddf4ff.json",
+					"name" : "geometry-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "printer-client::@bab1ea9a89c0c8b78b0f",
+					"jsonFile" : "target-printer-client-Debug-268a435e0848894ddb10.json",
+					"name" : "printer-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 89,
+					"id" : "printer-client-win::@baeb7cc89c25ad751f36",
+					"jsonFile" : "target-printer-client-win-Debug-28ecf8c7baa7b5d714cb.json",
+					"name" : "printer-client-win",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "rail-client::@d07bdc3ff9c5c5b128ec",
+					"jsonFile" : "target-rail-client-Debug-b74fb24c00ff0610aa51.json",
+					"name" : "rail-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 84,
+					"id" : "rdp2tcp-client::@23a78ca17ad1f42a96eb",
+					"jsonFile" : "target-rdp2tcp-client-Debug-668a0a737eb2bef4e7da.json",
+					"name" : "rdp2tcp-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "rdpdr-client::@97289811ea6e53e4dcb5",
+					"jsonFile" : "target-rdpdr-client-Debug-7c9561b9b6df732a6615.json",
+					"name" : "rdpdr-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "rdpei-client::@301ee317a5fce4451918",
+					"jsonFile" : "target-rdpei-client-Debug-27e56d4b83874249c71c.json",
+					"name" : "rdpei-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 78,
+					"id" : "rdpgfx-client::@e79c8bd8cbcef571774c",
+					"jsonFile" : "target-rdpgfx-client-Debug-5c94073fdeea9f4bbbe9.json",
+					"name" : "rdpgfx-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "rdpsnd-client::@354fdd8f647aadc8a675",
+					"jsonFile" : "target-rdpsnd-client-Debug-d9ee00d9e287c581f111.json",
+					"name" : "rdpsnd-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "rdpsnd-client-fake::@5802e56099c24c42e096",
+					"jsonFile" : "target-rdpsnd-client-fake-Debug-b1b5cb6663771ee72ed6.json",
+					"name" : "rdpsnd-client-fake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 75,
+					"id" : "rdpsnd-client-winmm::@1bf1ff64b217f543dfa1",
+					"jsonFile" : "target-rdpsnd-client-winmm-Debug-4e2a3e8bbd83c9d7cc9c.json",
+					"name" : "rdpsnd-client-winmm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "rdtk::@11120994ea558f35fa20",
+					"jsonFile" : "target-rdtk-Debug-3cdfffaba7a92458d1f1.json",
+					"name" : "rdtk",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 71,
+					"id" : "remdesk-client::@50e3189e998ab8dcc5d7",
+					"jsonFile" : "target-remdesk-client-Debug-00b80989196f0b83c939.json",
+					"name" : "remdesk-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "smartcard-client::@7973b92ff12f860b6948",
+					"jsonFile" : "target-smartcard-client-Debug-2dfc6ab16f7917690571.json",
+					"name" : "smartcard-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "urbdrc-client::@0f373dd4aac21c9cf216",
+					"jsonFile" : "target-urbdrc-client-Debug-66981d7ab74c1b8203f2.json",
+					"name" : "urbdrc-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "urbdrc-client-libusb::@2ee620e5655640fc7b19",
+					"jsonFile" : "target-urbdrc-client-libusb-Debug-02ab03696f0425f487bb.json",
+					"name" : "urbdrc-client-libusb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "urbdrc-common::@d602302a9e136842e07b",
+					"jsonFile" : "target-urbdrc-common-Debug-64fc99f4b642475b9cd8.json",
+					"name" : "urbdrc-common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "video-client::@dfc636478716e5f5724a",
+					"jsonFile" : "target-video-client-Debug-97edec5e0f2c3da9d2de.json",
+					"name" : "video-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 108,
+					"id" : "wfreerdp-client::@e2f5f4e017202a5cd3d0",
+					"jsonFile" : "target-wfreerdp-client-Debug-feed0e4a59007463e60d.json",
+					"name" : "wfreerdp-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "winpr::@e18be0b624d3dede631e",
+					"jsonFile" : "target-winpr-Debug-ebadb01d71af703a6ad7.json",
+					"name" : "winpr",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "winpr-hash::@aa39a71306b2dddca349",
+					"jsonFile" : "target-winpr-hash-Debug-393da5873d9f84f88fb0.json",
+					"name" : "winpr-hash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "winpr-makecert::@c6320a7ea936ed5a07e9",
+					"jsonFile" : "target-winpr-makecert-Debug-ace1ac17ed287b5f8003.json",
+					"name" : "winpr-makecert",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "winpr-tools::@bf652d7c8b300fc3740e",
+					"jsonFile" : "target-winpr-tools-Debug-9a8d3ca2115ae53fdb35.json",
+					"name" : "winpr-tools",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)",
+		"source" : "C:/Users/pumpk/Documents/FreeRDP-1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

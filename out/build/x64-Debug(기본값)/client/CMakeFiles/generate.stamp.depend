@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Users/pumpk/Documents/FreeRDP-1/client/CMakeLists.txt
+C:/Users/pumpk/Documents/FreeRDP-1/client/FreeRDP-ClientConfig.cmake.in
+C:/Users/pumpk/Documents/FreeRDP-1/client/Mac/ModuleOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/client/Sample/ModuleOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/client/Windows/ModuleOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/client/X11/ModuleOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/client/freerdp-client.pc.in
+C:/Users/pumpk/Documents/FreeRDP-1/client/iOS/ModuleOptions.cmake

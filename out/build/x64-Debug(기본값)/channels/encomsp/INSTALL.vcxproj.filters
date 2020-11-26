@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\CMakeFiles\a69f273c52a0f2be73e5ad39b78a2148\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C192010A-0996-3F7F-8DC1-2B3426EB4585}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

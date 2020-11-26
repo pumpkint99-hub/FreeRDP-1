@@ -1,0 +1,15 @@
+prefix=C:/Users/pumpk/Documents/FreeRDP-1/out/install/x64-Debug(기본값)
+exec_prefix=C:/Users/pumpk/Documents/FreeRDP-1/out/install/x64-Debug(기본값)
+libdir=C:/Users/pumpk/Documents/FreeRDP-1/out/install/x64-Debug(기본값)/lib
+includedir=${prefix}/
+libs=-lwinpr-tools3
+
+Name: WinPR
+Description: WinPR: Windows Portable Runtime
+URL: http://www.freerdp.com/
+Version: 3.0.0
+Requires:
+Requires.private: winpr3 libssl
+Libs: -L${libdir} ${libs}
+Libs.private: -lcrypto
+Cflags: -I${includedir}

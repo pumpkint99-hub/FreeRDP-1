@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43709801-48C3-34D9-B989-A913F23ACB96}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>freerdp-client</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">freerdp-client.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">freerdp-client3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSL-Win64\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값);C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\include;C:\Users\pumpk\Documents\FreeRDP-1\include;C:\Users\pumpk\Documents\FreeRDP-1\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\rdtk\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\rdtk\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\client;C:\Users\pumpk\Documents\FreeRDP-1\channels\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINPR_DLL;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0601;_WIN32_WINNT=0x0601;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";freerdp_client_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WINPR_DLL;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0601;_WIN32_WINNT=0x0601;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";freerdp_client_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSL-Win64\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값);C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\include;C:\Users\pumpk\Documents\FreeRDP-1\include;C:\Users\pumpk\Documents\FreeRDP-1\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\rdtk\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\rdtk\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\client;C:\Users\pumpk\Documents\FreeRDP-1\channels\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSL-Win64\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값);C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\include;C:\Users\pumpk\Documents\FreeRDP-1\include;C:\Users\pumpk\Documents\FreeRDP-1\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\rdtk\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\rdtk\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\client;C:\Users\pumpk\Documents\FreeRDP-1\channels\client;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Debug\drdynvc-client.lib;..\..\Debug\remdesk-client.lib;..\..\Debug\rdpsnd-client.lib;..\..\Debug\rdpdr-client.lib;..\..\Debug\rdp2tcp-client.lib;..\..\Debug\rail-client.lib;..\..\Debug\encomsp-client.lib;..\..\Debug\cliprdr-client.lib;..\..\Debug\video-client.lib;..\..\Debug\urbdrc-client.lib;..\..\Debug\rdpsnd-client.lib;..\..\Debug\rdpgfx-client.lib;..\..\Debug\rdpei-client.lib;..\..\Debug\geometry-client.lib;..\..\Debug\echo-client.lib;..\..\Debug\disp-client.lib;..\..\Debug\audin-client.lib;..\..\Debug\smartcard-client.lib;..\..\Debug\printer-client.lib;..\..\Debug\drive-client.lib;..\..\Debug\urbdrc-client-libusb.lib;..\..\Debug\rdpsnd-client-winmm.lib;..\..\Debug\rdpsnd-client-fake.lib;..\..\Debug\printer-client-win.lib;..\..\Debug\audin-client-winmm.lib;..\..\Debug\urbdrc-client.lib;C:\Program Files\libusb-1.0.23\MS64\static\libusb-1.0.lib;..\..\Debug\freerdp3.lib;..\..\Debug\winpr3.lib;ntdsapi.lib;crypt32.lib;dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;shlwapi.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/Debug/freerdp-client3.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/Debug/freerdp-client3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\client\common\client.c" />
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\client\common\cmdline.c" />
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\client\common\compatibility.c" />
+    <ClInclude Include="C:\Users\pumpk\Documents\FreeRDP-1\client\common\compatibility.h" />
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\client\common\file.c" />
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\client\common\geometry.c" />
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\client\tables.c" />
+    <ClInclude Include="C:\Users\pumpk\Documents\FreeRDP-1\channels\client\tables.h" />
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\channels\client\addin.c" />
+    <ClInclude Include="C:\Users\pumpk\Documents\FreeRDP-1\channels\client\addin.h" />
+    <ResourceCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\client\common\version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\audin\client\audin-client.vcxproj">
+      <Project>{992E968E-F14F-33DC-9CB6-7B28A68AFCD4}</Project>
+      <Name>audin-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\audin\client\winmm\audin-client-winmm.vcxproj">
+      <Project>{B6FD002D-87F5-3FA3-BD63-9186550FF203}</Project>
+      <Name>audin-client-winmm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\cliprdr\client\cliprdr-client.vcxproj">
+      <Project>{E7216479-2898-3E6E-AA29-30748DBFCB12}</Project>
+      <Name>cliprdr-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\disp\client\disp-client.vcxproj">
+      <Project>{558E7C58-27B5-3A30-88E6-778C028DA957}</Project>
+      <Name>disp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\drdynvc\client\drdynvc-client.vcxproj">
+      <Project>{6354C0CC-B547-3F7E-A5EE-5DB84E236089}</Project>
+      <Name>drdynvc-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\drive\client\drive-client.vcxproj">
+      <Project>{424FD0A4-630E-3938-B582-B937696A4733}</Project>
+      <Name>drive-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\echo\client\echo-client.vcxproj">
+      <Project>{C7E7D7F4-5562-34BA-8233-54843E43C624}</Project>
+      <Name>echo-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\encomsp\client\encomsp-client.vcxproj">
+      <Project>{C2BAA21C-5281-3929-9800-45733EACA881}</Project>
+      <Name>encomsp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\libfreerdp\freerdp.vcxproj">
+      <Project>{CB4B98C4-0E88-3FC8-8F92-D1593DCED204}</Project>
+      <Name>freerdp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\geometry\client\geometry-client.vcxproj">
+      <Project>{76DE4EB5-FF8B-3194-AC36-2AAF1E8758B1}</Project>
+      <Name>geometry-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\printer\client\printer-client.vcxproj">
+      <Project>{59B6F6B2-D5B9-3B46-BCD8-591569BC77EE}</Project>
+      <Name>printer-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\printer\client\win\printer-client-win.vcxproj">
+      <Project>{4FA69C8B-6938-3A07-8B00-5DCA70D205D7}</Project>
+      <Name>printer-client-win</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\rail\client\rail-client.vcxproj">
+      <Project>{64E16A01-588C-326F-96A5-A40558A16DAE}</Project>
+      <Name>rail-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\rdp2tcp\client\rdp2tcp-client.vcxproj">
+      <Project>{3EB92DDF-D543-3760-9621-2FDF6B89C40F}</Project>
+      <Name>rdp2tcp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\rdpdr\client\rdpdr-client.vcxproj">
+      <Project>{E6B46078-8066-3732-BC57-9D5C4C7042A3}</Project>
+      <Name>rdpdr-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\rdpei\client\rdpei-client.vcxproj">
+      <Project>{28833CB1-8D3D-34B3-9F3B-1DD2024A2178}</Project>
+      <Name>rdpei-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\rdpgfx\client\rdpgfx-client.vcxproj">
+      <Project>{55064198-CD75-3257-8B21-69FBF568121F}</Project>
+      <Name>rdpgfx-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\rdpsnd\client\rdpsnd-client.vcxproj">
+      <Project>{BCD5DFC1-A557-3AA6-8818-4D3161675A89}</Project>
+      <Name>rdpsnd-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\rdpsnd\client\fake\rdpsnd-client-fake.vcxproj">
+      <Project>{4DC8FB4B-9DAE-3DE4-9D72-9A0F1B4B2332}</Project>
+      <Name>rdpsnd-client-fake</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\rdpsnd\client\winmm\rdpsnd-client-winmm.vcxproj">
+      <Project>{1AFC4496-5D78-3038-BD58-F5779F2036B5}</Project>
+      <Name>rdpsnd-client-winmm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\remdesk\client\remdesk-client.vcxproj">
+      <Project>{D69F7614-EB44-3115-AE51-87827F185607}</Project>
+      <Name>remdesk-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\smartcard\client\smartcard-client.vcxproj">
+      <Project>{6D40AD49-0D7B-3AC4-BE44-642F296F3CE9}</Project>
+      <Name>smartcard-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\urbdrc\client\urbdrc-client.vcxproj">
+      <Project>{0A9D7A62-0E59-391B-883F-EE9C315A1FD2}</Project>
+      <Name>urbdrc-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\urbdrc\client\libusb\urbdrc-client-libusb.vcxproj">
+      <Project>{DB1F9B20-0557-34C1-90E2-CB67516ED54A}</Project>
+      <Name>urbdrc-client-libusb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\video\client\video-client.vcxproj">
+      <Project>{D05DDD51-16CE-36F0-98FF-AD997B2B5E92}</Project>
+      <Name>video-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\libwinpr\winpr.vcxproj">
+      <Project>{DB77388A-EBBA-3E43-B092-0A5DDA0A1A95}</Project>
+      <Name>winpr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,133 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "winpr::@e18be0b624d3dede631e"
+		},
+		{
+			"id" : "winpr-tools::@bf652d7c8b300fc3740e"
+		},
+		{
+			"id" : "freerdp::@9913f3e23acaebaec13a"
+		},
+		{
+			"id" : "winpr-makecert::@c6320a7ea936ed5a07e9"
+		},
+		{
+			"id" : "winpr-hash::@aa39a71306b2dddca349"
+		},
+		{
+			"id" : "video-client::@dfc636478716e5f5724a"
+		},
+		{
+			"id" : "drdynvc-client::@d8274a234d7f799d53c1"
+		},
+		{
+			"id" : "urbdrc-common::@d602302a9e136842e07b"
+		},
+		{
+			"id" : "rdtk::@11120994ea558f35fa20"
+		},
+		{
+			"id" : "rdpsnd-client::@354fdd8f647aadc8a675"
+		},
+		{
+			"id" : "rdpsnd-client-winmm::@1bf1ff64b217f543dfa1"
+		},
+		{
+			"id" : "remdesk-client::@50e3189e998ab8dcc5d7"
+		},
+		{
+			"id" : "urbdrc-client-libusb::@2ee620e5655640fc7b19"
+		},
+		{
+			"id" : "smartcard-client::@7973b92ff12f860b6948"
+		},
+		{
+			"id" : "urbdrc-client::@0f373dd4aac21c9cf216"
+		},
+		{
+			"id" : "rdpei-client::@301ee317a5fce4451918"
+		},
+		{
+			"id" : "rdp2tcp-client::@23a78ca17ad1f42a96eb"
+		},
+		{
+			"id" : "rdpgfx-client::@e79c8bd8cbcef571774c"
+		},
+		{
+			"id" : "rdpsnd-client-fake::@5802e56099c24c42e096"
+		},
+		{
+			"id" : "rdpdr-client::@97289811ea6e53e4dcb5"
+		},
+		{
+			"id" : "encomsp-client::@9cc3084035dad9f1e4ff"
+		},
+		{
+			"id" : "printer-client::@bab1ea9a89c0c8b78b0f"
+		},
+		{
+			"id" : "echo-client::@23509bb4f70b1c17e8ba"
+		},
+		{
+			"id" : "printer-client-win::@baeb7cc89c25ad751f36"
+		},
+		{
+			"id" : "geometry-client::@320347d7ae2c683af2c0"
+		},
+		{
+			"id" : "rail-client::@d07bdc3ff9c5c5b128ec"
+		},
+		{
+			"id" : "wfreerdp-client::@e2f5f4e017202a5cd3d0"
+		},
+		{
+			"id" : "freerdp-client::@259b6c10da3fdefecb32"
+		},
+		{
+			"id" : "disp-client::@5cc5bda5546bcb0b1c77"
+		},
+		{
+			"id" : "cliprdr-client::@4107d1157b804a0f4d18"
+		},
+		{
+			"id" : "audin-client-winmm::@1b925916bf7a524c9fd7"
+		},
+		{
+			"id" : "audin-client::@22ce11e3e7fb38b08753"
+		},
+		{
+			"id" : "drive-client::@9d1495e2c991e5fd3294"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

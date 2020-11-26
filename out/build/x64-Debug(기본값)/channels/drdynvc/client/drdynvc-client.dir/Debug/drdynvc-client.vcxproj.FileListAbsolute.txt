@@ -1,0 +1,2 @@
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\Debug\drdynvc-client.pdb
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\drdynvc\client\drdynvc-client.dir\Debug\drdynvc-client.pdb

@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeDependentOption.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeParseArguments.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/CMakeLists.txt
+C:/Users/pumpk/Documents/FreeRDP-1/channels/audin/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/cliprdr/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/disp/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/drdynvc/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/drive/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/echo/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/encomsp/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/geometry/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/parallel/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/printer/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/rail/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/rdp2tcp/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/rdpdr/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/rdpei/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/rdpgfx/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/rdpsnd/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/remdesk/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/serial/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/smartcard/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/sshagent/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/tsmf/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/urbdrc/ChannelOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/channels/video/ChannelOptions.cmake

@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Users/pumpk/Documents/FreeRDP-1/cmake/WindowsDLLVersion.rc.in
+C:/Users/pumpk/Documents/FreeRDP-1/winpr/tools/makecert-cli/CMakeLists.txt
+C:/Users/pumpk/Documents/FreeRDP-1/winpr/tools/makecert-cli/winpr-makecert.1.in

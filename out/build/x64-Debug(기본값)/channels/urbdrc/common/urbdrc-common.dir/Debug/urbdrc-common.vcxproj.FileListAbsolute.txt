@@ -1,0 +1,2 @@
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\urbdrc\common\urbdrc-common.dir\Debug\urbdrc-common.lib
+C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\urbdrc\common\urbdrc-common.dir\Debug\urbdrc-common.pdb

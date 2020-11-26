@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1CDECAB7-6842-3A2A-A64B-0995A4090895}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>winpr-tools</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winpr-tools.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winpr-tools3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSL-Win64\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값);C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\include;C:\Users\pumpk\Documents\FreeRDP-1\include;C:\Users\pumpk\Documents\FreeRDP-1\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINPR_DLL;WINPR_EXPORTS;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0601;_WIN32_WINNT=0x0601;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";winpr_tools_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WINPR_DLL;WINPR_EXPORTS;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0601;_WIN32_WINNT=0x0601;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";winpr_tools_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSL-Win64\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값);C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\include;C:\Users\pumpk\Documents\FreeRDP-1\include;C:\Users\pumpk\Documents\FreeRDP-1\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSL-Win64\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값);C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\include;C:\Users\pumpk\Documents\FreeRDP-1\include;C:\Users\pumpk\Documents\FreeRDP-1\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\OpenSSL-Win64\lib\libssl.lib;C:\Program Files\OpenSSL-Win64\lib\libcrypto.lib;..\..\Debug\winpr3.lib;ntdsapi.lib;crypt32.lib;dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/Debug/winpr-tools3.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/Debug/winpr-tools3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\winpr\tools\makecert\makecert.c" />
+    <ResourceCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\tools\version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\libwinpr\winpr.vcxproj">
+      <Project>{DB77388A-EBBA-3E43-B092-0A5DDA0A1A95}</Project>
+      <Name>winpr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

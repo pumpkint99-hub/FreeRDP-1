@@ -1,0 +1,33 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeConfigurableFile.in
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeDependentOption.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckCCompilerFlag.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckStructHasMember.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/FeatureSummary.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/FindPkgConfig.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/GNUInstallDirs.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/TestBigEndian.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/cmake/CheckCmakeCompat.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/cmake/ComplexLibrary.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/cmake/ConfigOptions.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/cmake/EchoTarget.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/cmake/FindFeature.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/cmake/GNUInstallDirsWrapper.cmake
+C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CheckIncludeFiles/WINPR_HAVE_INTTYPES_H.c
+C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CheckIncludeFiles/WINPR_HAVE_STDBOOL_H.c
+C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/CMakeFiles/CheckIncludeFiles/WINPR_HAVE_STDINT_H.c
+C:/Users/pumpk/Documents/FreeRDP-1/winpr/CMakeLists.txt
+C:/Users/pumpk/Documents/FreeRDP-1/winpr/WinPRConfig.cmake.in
+C:/Users/pumpk/Documents/FreeRDP-1/winpr/winpr.pc.in

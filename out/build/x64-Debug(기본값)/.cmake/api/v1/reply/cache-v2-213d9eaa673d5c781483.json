@@ -1,0 +1,3939 @@
+{
+	"entries" : 
+	[
+		{
+			"name" : "BUILD_COMM_TESTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build comm related tests (require comm port)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "BUILD_TESTING",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build unit tests"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "BUILTIN_CHANNELS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Combine all channels into their respective base library"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CAIRO_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CAIRO_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "CAIRO_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "CAIRO_INCLUDE_DIR-NOTFOUND"
+		},
+		{
+			"name" : "CAIRO_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "(This variable does not exist and should not be used)"
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
+		},
+		{
+			"name" : "CAIRO_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CAIRO_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "CCACHE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CCACHE-NOTFOUND"
+		},
+		{
+			"name" : "CHANNEL_AUDIN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build audin DYNAMIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_AUDIN_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build audin DYNAMIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_AUDIN_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build audin DYNAMIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_CLIPRDR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build cliprdr STATIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_CLIPRDR_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build cliprdr STATIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_CLIPRDR_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build cliprdr STATIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_DISP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build disp DYNAMIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_DISP_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build disp DYNAMIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_DISP_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build disp DYNAMIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_DRDYNVC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build drdynvc STATIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_DRDYNVC_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build drdynvc STATIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_DRDYNVC_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build drdynvc STATIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_DRIVE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build drive DEVICE channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_DRIVE_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build drive DEVICE channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_DRIVE_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build drive DEVICE channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_ECHO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build echo DYNAMIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_ECHO_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build echo DYNAMIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_ECHO_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build echo DYNAMIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_ENCOMSP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build encomsp STATIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_ENCOMSP_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build encomsp STATIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_ENCOMSP_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build encomsp STATIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_GEOMETRY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build geometry DYNAMIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_GEOMETRY_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build geometry DYNAMIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_PARALLEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build parallel DEVICE channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_PRINTER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build printer DEVICE channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_PRINTER_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build printer DEVICE channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_PRINTER_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build printer DEVICE channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_RAIL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rail STATIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RAIL_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rail STATIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RAIL_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rail STATIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_RDP2TCP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdp2tcp STATIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDP2TCP_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdp2tcp STATIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDP2TCP_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdp2tcp STATIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_RDPDR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpdr STATIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDPDR_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpdr STATIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDPDR_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpdr STATIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDPEI",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpei DYNAMIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDPEI_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpei DYNAMIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDPEI_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpei DYNAMIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_RDPGFX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpgfx DYNAMIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDPGFX_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpgfx DYNAMIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDPGFX_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpgfx DYNAMIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_RDPSND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpsnd STATIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDPSND_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpsnd STATIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_RDPSND_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build rdpsnd STATIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_REMDESK",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build remdesk STATIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_REMDESK_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build remdesk STATIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_REMDESK_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build remdesk STATIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_SERIAL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build serial DEVICE channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_SMARTCARD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build smartcard DEVICE channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_SMARTCARD_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build smartcard DEVICE channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_SMARTCARD_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build smartcard DEVICE channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_SSHAGENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build sshagent DYNAMIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_TSMF",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build tsmf DYNAMIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_URBDRC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build urbdrc DYNAMIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_URBDRC_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build urbdrc DYNAMIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_URBDRC_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build urbdrc DYNAMIC channel server"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CHANNEL_VIDEO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build video DYNAMIC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CHANNEL_VIDEO_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build video DYNAMIC channel client"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CMAKE_AR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/lib.exe"
+		},
+		{
+			"name" : "CMAKE_CACHEFILE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the directory where this CMakeCache.txt was created"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "c:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)"
+		},
+		{
+			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Major version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3"
+		},
+		{
+			"name" : "CMAKE_CACHE_MINOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Minor version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "18"
+		},
+		{
+			"name" : "CMAKE_CACHE_PATCH_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Patch version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "20081302"
+		},
+		{
+			"name" : "CMAKE_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe"
+		},
+		{
+			"name" : "CMAKE_CONFIGURATION_TYPES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "STRING",
+			"value" : "Debug"
+		},
+		{
+			"name" : "CMAKE_CPACK_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to cpack program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe"
+		},
+		{
+			"name" : "CMAKE_CTEST_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to ctest program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "MSVC_CMAKE_CXX_FLAGS"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/DWIN32 /D_WINDOWS /W2"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "MSVC_CMAKE_CXX_FLAGS_DEBUG"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/MDd /Zi /Ob2 /Od /RTC1"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "MSVC_CMAKE_CXX_FLAGS_MINSIZEREL"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/MD /O1 /Ob1 /DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "MSVC_CMAKE_CXX_FLAGS_RELEASE"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/MD /O2 /Ob2 /DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "MSVC_CMAKE_CXX_FLAGS_RELWITHDEBINFO"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/MD /Zi /O2 /Ob1 /DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_STANDARD_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Libraries linked by default with all C++ applications."
+				}
+			],
+			"type" : "STRING",
+			"value" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "MSVC_CMAKE_C_FLAGS"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/DWIN32 /D_WINDOWS /W2"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "MSVC_CMAKE_C_FLAGS_DEBUG"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/MDd /Zi /Ob2 /Od /RTC1"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "MSVC_CMAKE_C_FLAGS_MINSIZEREL"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/MD /O1 /Ob1 /DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "MSVC_CMAKE_C_FLAGS_RELEASE"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/MD /O2 /Ob2 /DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "MSVC_CMAKE_C_FLAGS_RELWITHDEBINFO"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/MD /Zi /O2 /Ob1 /DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_STANDARD_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Libraries linked by default with all C applications."
+				}
+			],
+			"type" : "STRING",
+			"value" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib"
+		},
+		{
+			"name" : "CMAKE_EXECUTABLE_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Executable file format"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Unknown"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/machine:x64"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of external makefile project generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Visual Studio 16 2019"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_INSTANCE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generator instance identifier."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_PLATFORM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator platform."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "x64"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_TOOLSET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator toolset."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREAD_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include pthread.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HOME_DIRECTORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Users/pumpk/Documents/FreeRDP-1"
+		},
+		{
+			"name" : "CMAKE_INSTALL_BINDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "User executables (bin)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "bin"
+		},
+		{
+			"name" : "CMAKE_INSTALL_DATADIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only architecture-independent data (DATAROOTDIR)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_DATAROOTDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only architecture-independent data root (share)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "share"
+		},
+		{
+			"name" : "CMAKE_INSTALL_DOCDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Documentation root (DATAROOTDIR/doc/PROJECT_NAME)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C header files (include)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "include"
+		},
+		{
+			"name" : "CMAKE_INSTALL_INFODIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Info documentation (DATAROOTDIR/info)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Object code libraries (lib)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "lib"
+		},
+		{
+			"name" : "CMAKE_INSTALL_LIBEXECDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Program executables (libexec)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "libexec"
+		},
+		{
+			"name" : "CMAKE_INSTALL_LOCALEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Locale-dependent data (DATAROOTDIR/locale)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_LOCALSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Modifiable single-machine data (var)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "var"
+		},
+		{
+			"name" : "CMAKE_INSTALL_MANDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Man documentation (DATAROOTDIR/man)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_OLDINCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C header files for non-gcc (/usr/include)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Users/pumpk/Documents/FreeRDP-1/out/install/x64-Debug(기본값)"
+		},
+		{
+			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Run-time variable data (LOCALSTATEDIR/run)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_SBINDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "System admin executables (sbin)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "sbin"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SHAREDSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Modifiable architecture-independent data (com)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "com"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SYSCONFDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only single-machine data (etc)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "etc"
+		},
+		{
+			"name" : "CMAKE_LINKER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/link.exe"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/machine:x64"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_MT",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_MT-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "number of local generators"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "109"
+		},
+		{
+			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Platform information initialized"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_DESCRIPTION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "FreeRDP"
+		},
+		{
+			"name" : "CMAKE_RC_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "RC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "rc"
+		},
+		{
+			"name" : "CMAKE_RC_COMPILER_WORKS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-DWIN32"
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-D_DEBUG"
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_ROOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake installation."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/machine:x64"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_SKIP_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when using shared libraries."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/machine:x64"
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_VERBOSE_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "CPACK_BINARY_7Z",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build 7-Zip packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPACK_BINARY_IFW",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build IFW packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPACK_BINARY_NSIS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build NSIS packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CPACK_BINARY_NUGET",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build NuGet packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPACK_BINARY_WIX",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build WiX packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPACK_BINARY_ZIP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build ZIP packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPACK_SOURCE_7Z",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build 7-Zip source packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CPACK_SOURCE_ZIP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build ZIP source packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenSSL"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/Program Files/OpenSSL-Win64/lib/libssl.lib;C:/Program Files/OpenSSL-Win64/lib/libcrypto.lib][C:/Program Files/OpenSSL-Win64/include][v1.1.1h()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Threads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[TRUE][v()]"
+		},
+		{
+			"name" : "FreeRDP_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)"
+		},
+		{
+			"name" : "FreeRDP_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/pumpk/Documents/FreeRDP-1"
+		},
+		{
+			"name" : "GIT_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Git command line client"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/Git/cmd/git.exe"
+		},
+		{
+			"name" : "HAVE_EXECINFO_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have includes execinfo.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "HAVE_FCNTL_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include fcntl.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_INTTYPES_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include inttypes.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_SYSLOG_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have includes syslog.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "HAVE_SYS_FILIO_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have includes sys/filio.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "HAVE_SYS_MODEM_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have includes sys/modem.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "HAVE_SYS_SELECT_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have includes sys/select.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "HAVE_SYS_SOCKIO_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have includes sys/sockio.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "HAVE_SYS_STRTIO_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have includes sys/strtio.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "HAVE_TM_GMTOFF",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test HAVE_TM_GMTOFF"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "HAVE_UNISTD_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have includes unistd.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "LIB_EAY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/OpenSSL-Win64/lib/libcrypto.lib"
+		},
+		{
+			"name" : "LIB_EAY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/OpenSSL-Win64/lib/libcrypto.lib"
+		},
+		{
+			"name" : "MSVC_REDIST_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Redist/MSVC/14.28.29325"
+		},
+		{
+			"name" : "OPENSSL_DEBUG_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "(This variable does not exist and should not be used)"
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
+		},
+		{
+			"name" : "OPENSSL_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Program Files/OpenSSL-Win64/include"
+		},
+		{
+			"name" : "OPENSSL_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "(This variable does not exist and should not be used)"
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
+		},
+		{
+			"name" : "OPENSSL_RELEASE_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "(This variable does not exist and should not be used)"
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
+		},
+		{
+			"name" : "PKG_CONFIG_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "pkg-config executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "PKG_CONFIG_EXECUTABLE-NOTFOUND"
+		},
+		{
+			"name" : "PRODUCT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "FreeRDP package name"
+				}
+			],
+			"type" : "STRING",
+			"value" : "FreeRDP"
+		},
+		{
+			"name" : "RdTk_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/rdtk"
+		},
+		{
+			"name" : "RdTk_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/pumpk/Documents/FreeRDP-1/rdtk"
+		},
+		{
+			"name" : "SSL_EAY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/OpenSSL-Win64/lib/libssl.lib"
+		},
+		{
+			"name" : "SSL_EAY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/OpenSSL-Win64/lib/libssl.lib"
+		},
+		{
+			"name" : "TESTS_WTSAPI_EXTRA",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build extra WTSAPI tests (interactive)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "TIMER_CREATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function timer_create"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "TIMER_DELETE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function timer_delete"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "TIMER_GETTIME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function timer_gettime"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "TIMER_SETTIME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function timer_settime"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "USE_VERSION_FROM_GIT_TAG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Extract FreeRDP version from git tag."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "VENDOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "FreeRDP package vendor"
+				}
+			],
+			"type" : "STRING",
+			"value" : "FreeRDP"
+		},
+		{
+			"name" : "WINPR_HAVE_INTTYPES_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include inttypes.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "WINPR_HAVE_STDBOOL_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include stdbool.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "WINPR_HAVE_STDINT_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include stdint.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "WITH_CAIRO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use CAIRO image library for screen resizing"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_CCACHE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use ccache support if available"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_CHANNELS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build virtual channel plugins"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_CLANG_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Detect clang-format. run 'cmake --build . --target clangformat' to format."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_CLIENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build client binaries"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_CLIENT_CHANNELS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build virtual channel plugins"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_CLIENT_COMMON",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build client common library"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_CLIENT_INTERFACE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build clients as a library with an interface"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_ALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print all debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_CAPABILITIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print capability negotiation debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_CERTIFICATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print certificate related debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_CHANNELS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print channel manager debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_CLIPRDR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print clipboard redirection debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_DVC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print dynamic virtual channel debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_KBD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print keyboard related debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_LICENSE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print license debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_MUTEX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print mutex debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_NEGO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print negotiation related debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_NLA",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print authentication related debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_NTLM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print NTLM debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_RAIL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print RemoteApp debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_RDP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print RDP debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_RDPDR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Rdpdr debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_RDPEI",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print input virtual channel debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_RDPGFX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print RDPGFX debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_REDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Redirection debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_RFX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print RemoteFX debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_RINGBUFFER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Ringbuffer debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_SCARD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print smartcard debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_SND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print rdpsnd debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_SVC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print static virtual channel debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_SYMBOLS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Pack debug symbols to installer"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_THREADS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print thread debug messages, enables handle dump"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_TIMEZONE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print timezone debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_TRANSPORT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print transport debug messages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_TSG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print Terminal Server Gateway debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_TSMF",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print TSMF virtual channel debug messages."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_URBDRC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dump data send/received in URBDRC channel"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_WND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print window order debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_X11",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print X11 Client debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_X11_CLIPRDR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print X11 clipboard redirection debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_X11_LOCAL_MOVESIZE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print X11 Client local movesize debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DEBUG_XV",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print XVideo debug messages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_DSP_EXPERIMENTAL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable experimental sound encoder/decoder formats"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_FAAC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable feature FAAC for codec"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_FAAD2",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable feature FAAD2 for codec"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_GPROF",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compile with GProf profiler."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_GSM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable feature GSM for codec"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_GSSAPI",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compile support for kerberos authentication. (EXPERIMENTAL)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_ICU",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use ICU for unicode conversion"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_IPP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use Intel Performance Primitives."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_JPEG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use JPEG decoding."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_LAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable feature LAME for codec"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_MACAUDIO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable OSX sound backend"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_MANPAGES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generate manpages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_MBEDTLS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable feature MbedTLS for cryptography"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_MEDIA_FOUNDATION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable H264 media foundation decoder."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_NATIVE_SSPI",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use native SSPI modules"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_OPENCL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable feature OpenCL for codec"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_OPENH264",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable feature OpenH264 for codec"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_OPENSSL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable feature OpenSSL for cryptography"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_PROFILER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compile profiler."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_SAMPLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build sample code"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_SERVER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build server binaries"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_SERVER_INTERFACE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build servers as a library with an interface"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_SMARTCARD_INSPECT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable SmartCard API Inspector"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_SOXR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable feature soxr for codec"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_SSE2",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable SSE2 optimization."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_SWSCALE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use SWScale image library for screen resizing"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_THIRD_PARTY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build third-party components"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_WIN8",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use Windows 8 libraries"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WITH_WINMM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use Windows Multimedia"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_WINPR_TOOLS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build WinPR helper binaries"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "WITH_X264",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable feature x264 for codec"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "WinPR_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/winpr"
+		},
+		{
+			"name" : "WinPR_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr"
+		},
+		{
+			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CMAKE_INSTALL_PREFIX during last run"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Users/pumpk/Documents/FreeRDP-1/out/install/x64-Debug(기본값)"
+		},
+		{
+			"name" : "audin-client-winmm_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;freerdp;general;winpr;general;winmm.lib;"
+		},
+		{
+			"name" : "audin-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;freerdp;general;winpr;"
+		},
+		{
+			"name" : "disp-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;"
+		},
+		{
+			"name" : "drive-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;freerdp;"
+		},
+		{
+			"name" : "echo-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;"
+		},
+		{
+			"name" : "freerdp-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;drdynvc-client;general;remdesk-client;general;rdpsnd-client;general;rdpdr-client;general;rdp2tcp-client;general;rail-client;general;encomsp-client;general;cliprdr-client;general;video-client;general;urbdrc-client;general;rdpsnd-client;general;rdpgfx-client;general;rdpei-client;general;geometry-client;general;echo-client;general;disp-client;general;audin-client;general;smartcard-client;general;printer-client;general;drive-client;general;urbdrc-client-libusb;general;rdpsnd-client-winmm;general;rdpsnd-client-fake;general;printer-client-win;general;audin-client-winmm;general;freerdp;general;winpr;general;winpr;"
+		},
+		{
+			"name" : "freerdp_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;ws2_32;general;C:/Program Files/OpenSSL-Win64/lib/libssl.lib;general;C:/Program Files/OpenSSL-Win64/lib/libcrypto.lib;general;winpr;"
+		},
+		{
+			"name" : "geometry-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;"
+		},
+		{
+			"name" : "printer-client-win_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;freerdp;"
+		},
+		{
+			"name" : "printer-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;freerdp;"
+		},
+		{
+			"name" : "rail-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;freerdp;"
+		},
+		{
+			"name" : "rdp2tcp-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;freerdp;"
+		},
+		{
+			"name" : "rdpdr-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;freerdp;"
+		},
+		{
+			"name" : "rdpei-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;freerdp;"
+		},
+		{
+			"name" : "rdpgfx-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;freerdp;"
+		},
+		{
+			"name" : "rdpsnd-client-fake_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;freerdp;general;winpr;"
+		},
+		{
+			"name" : "rdpsnd-client-winmm_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;winmm.lib;general;freerdp;"
+		},
+		{
+			"name" : "rdpsnd-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;freerdp;"
+		},
+		{
+			"name" : "rdtk_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;freerdp;"
+		},
+		{
+			"name" : "smartcard-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;freerdp;"
+		},
+		{
+			"name" : "urbdrc-client-libusb_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;C:/Program Files/libusb-1.0.23/MS64/static/libusb-1.0.lib;general;winpr;general;urbdrc-client;"
+		},
+		{
+			"name" : "urbdrc-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;general;freerdp;"
+		},
+		{
+			"name" : "video-client_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;winpr;"
+		},
+		{
+			"name" : "winpr-tools_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;C:/Program Files/OpenSSL-Win64/lib/libssl.lib;general;C:/Program Files/OpenSSL-Win64/lib/libcrypto.lib;general;winpr;"
+		},
+		{
+			"name" : "winpr_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;C:/Program Files/OpenSSL-Win64/lib/libssl.lib;general;C:/Program Files/OpenSSL-Win64/lib/libcrypto.lib;general;ntdsapi;general;crypt32;general;dbghelp;general;ws2_32;general;rpcrt4;general;credui;general;shlwapi;"
+		}
+	],
+	"kind" : "cache",
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

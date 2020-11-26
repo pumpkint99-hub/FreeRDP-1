@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"winpr/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "winpr::@e18be0b624d3dede631e"
+		},
+		{
+			"id" : "winpr-tools::@bf652d7c8b300fc3740e"
+		},
+		{
+			"id" : "winpr-makecert::@c6320a7ea936ed5a07e9"
+		},
+		{
+			"id" : "winpr-hash::@aa39a71306b2dddca349"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@687643d74b48f2d54ee6",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "winpr",
+		"source" : "winpr"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

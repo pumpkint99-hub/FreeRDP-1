@@ -1,0 +1,293 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/rdpgfx-client.lib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_channel_client_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"channels/CMakeLists.txt",
+			"channels/rdpgfx/client/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 209,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 913,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 960,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 961,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 962,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1006,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1007,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1046,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1047,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS  /Gd /W3 -DWINPR_DLL /MDd /Zi /Ob2 /Od /RTC1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "FREERDP_EXPORTS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "UNICODE"
+				},
+				{
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"define" : "WINPR_EXPORTS"
+				},
+				{
+					"define" : "WINVER=0x0601"
+				},
+				{
+					"define" : "WITH_OPENSSL"
+				},
+				{
+					"define" : "_AMD64_"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"define" : "_WINSOCK_DEPRECATED_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/winpr/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/rdtk/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/rdtk/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/channels/rdpgfx/client/.."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "winpr::@e18be0b624d3dede631e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "freerdp::@9913f3e23acaebaec13a"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Channels/rdpgfx/Client"
+	},
+	"id" : "rdpgfx-client::@e79c8bd8cbcef571774c",
+	"name" : "rdpgfx-client",
+	"nameOnDisk" : "rdpgfx-client.lib",
+	"paths" : 
+	{
+		"build" : "channels/rdpgfx/client",
+		"source" : "channels/rdpgfx/client"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "channels/rdpgfx/client/rdpgfx_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "channels/rdpgfx/client/rdpgfx_main.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "channels/rdpgfx/client/rdpgfx_codec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "channels/rdpgfx/client/rdpgfx_codec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "channels/rdpgfx/rdpgfx_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "channels/rdpgfx/rdpgfx_common.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

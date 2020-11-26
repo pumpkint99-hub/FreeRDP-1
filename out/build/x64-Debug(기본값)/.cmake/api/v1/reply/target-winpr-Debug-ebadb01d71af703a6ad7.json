@@ -1,0 +1,2195 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/winpr3.dll"
+		},
+		{
+			"path" : "Debug/winpr3.lib"
+		},
+		{
+			"path" : "Debug/winpr3.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"winpr/libwinpr/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 144,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 913,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 960,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 961,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 962,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1006,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1007,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS  /Gd /W3 -DWINPR_DLL -DWINPR_DLL -DWINPR_EXPORTS /MDd /Zi /Ob2 /Od /RTC1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "FREERDP_EXPORTS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "UNICODE"
+				},
+				{
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"define" : "WINPR_EXPORTS"
+				},
+				{
+					"define" : "WINVER=0x0601"
+				},
+				{
+					"define" : "WITH_OPENSSL"
+				},
+				{
+					"define" : "_AMD64_"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"define" : "_WINSOCK_DEPRECATED_NO_WARNINGS"
+				},
+				{
+					"define" : "winpr_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/winpr/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/libwinpr/utils/lodepng"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/libwinpr/utils/trio"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/libwinpr/utils/."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				28,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				37,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				74,
+				77,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				107,
+				108,
+				109,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				120,
+				121,
+				122,
+				124,
+				126,
+				127,
+				128,
+				129,
+				131,
+				132,
+				133,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				154,
+				156,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				169,
+				170,
+				171,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				190,
+				191,
+				192,
+				193,
+				195,
+				196,
+				198,
+				200,
+				202,
+				204,
+				206,
+				207,
+				208,
+				209
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "FREERDP_EXPORTS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "UNICODE"
+				},
+				{
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"define" : "WINPR_EXPORTS"
+				},
+				{
+					"define" : "WINVER=0x0601"
+				},
+				{
+					"define" : "WITH_OPENSSL"
+				},
+				{
+					"define" : "_AMD64_"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"define" : "_WINSOCK_DEPRECATED_NO_WARNINGS"
+				},
+				{
+					"define" : "winpr_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/winpr/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/libwinpr/utils/lodepng"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/libwinpr/utils/trio"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/libwinpr/utils/."
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				211
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "WinPR/libwinpr"
+	},
+	"id" : "winpr::@e18be0b624d3dede631e",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/install/x64-Debug(기본값)"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\OpenSSL-Win64\\lib\\libssl.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\OpenSSL-Win64\\lib\\libcrypto.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "ntdsapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "crypt32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "dbghelp.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "rpcrt4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "credui.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "shlwapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "winpr",
+	"nameOnDisk" : "winpr3.dll",
+	"paths" : 
+	{
+		"build" : "winpr/libwinpr",
+		"source" : "winpr/libwinpr"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "synch",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"name" : "locale",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		},
+		{
+			"name" : "library",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		},
+		{
+			"name" : "file",
+			"sourceIndexes" : 
+			[
+				13,
+				14,
+				15,
+				16
+			]
+		},
+		{
+			"name" : "pipe",
+			"sourceIndexes" : 
+			[
+				17,
+				18
+			]
+		},
+		{
+			"name" : "interlocked",
+			"sourceIndexes" : 
+			[
+				19
+			]
+		},
+		{
+			"name" : "security",
+			"sourceIndexes" : 
+			[
+				20
+			]
+		},
+		{
+			"name" : "nt",
+			"sourceIndexes" : 
+			[
+				21,
+				206,
+				207
+			]
+		},
+		{
+			"name" : "crypto",
+			"sourceIndexes" : 
+			[
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "registry",
+			"sourceIndexes" : 
+			[
+				28,
+				29,
+				30
+			]
+		},
+		{
+			"name" : "credentials",
+			"sourceIndexes" : 
+			[
+				31
+			]
+		},
+		{
+			"name" : "path",
+			"sourceIndexes" : 
+			[
+				32,
+				33
+			]
+		},
+		{
+			"name" : "io",
+			"sourceIndexes" : 
+			[
+				34,
+				35,
+				36
+			]
+		},
+		{
+			"name" : "memory",
+			"sourceIndexes" : 
+			[
+				37,
+				38
+			]
+		},
+		{
+			"name" : "input",
+			"sourceIndexes" : 
+			[
+				39,
+				40,
+				41
+			]
+		},
+		{
+			"name" : "shell",
+			"sourceIndexes" : 
+			[
+				42
+			]
+		},
+		{
+			"name" : "heap",
+			"sourceIndexes" : 
+			[
+				43
+			]
+		},
+		{
+			"name" : "utils",
+			"sourceIndexes" : 
+			[
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105
+			]
+		},
+		{
+			"name" : "error",
+			"sourceIndexes" : 
+			[
+				106
+			]
+		},
+		{
+			"name" : "timezone",
+			"sourceIndexes" : 
+			[
+				107,
+				108,
+				109,
+				110,
+				111
+			]
+		},
+		{
+			"name" : "sysinfo",
+			"sourceIndexes" : 
+			[
+				112
+			]
+		},
+		{
+			"name" : "pool",
+			"sourceIndexes" : 
+			[
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121
+			]
+		},
+		{
+			"name" : "handle",
+			"sourceIndexes" : 
+			[
+				122,
+				123,
+				124,
+				125
+			]
+		},
+		{
+			"name" : "thread",
+			"sourceIndexes" : 
+			[
+				126,
+				127,
+				128,
+				129,
+				130,
+				131
+			]
+		},
+		{
+			"name" : "winsock",
+			"sourceIndexes" : 
+			[
+				132
+			]
+		},
+		{
+			"name" : "sspi",
+			"sourceIndexes" : 
+			[
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157
+			]
+		},
+		{
+			"name" : "winhttp",
+			"sourceIndexes" : 
+			[
+				158
+			]
+		},
+		{
+			"name" : "asn1",
+			"sourceIndexes" : 
+			[
+				159
+			]
+		},
+		{
+			"name" : "sspicli",
+			"sourceIndexes" : 
+			[
+				160
+			]
+		},
+		{
+			"name" : "crt",
+			"sourceIndexes" : 
+			[
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168
+			]
+		},
+		{
+			"name" : "bcrypt",
+			"sourceIndexes" : 
+			[
+				169
+			]
+		},
+		{
+			"name" : "rpc",
+			"sourceIndexes" : 
+			[
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190
+			]
+		},
+		{
+			"name" : "credui",
+			"sourceIndexes" : 
+			[
+				191
+			]
+		},
+		{
+			"name" : "wtsapi",
+			"sourceIndexes" : 
+			[
+				192,
+				193,
+				194
+			]
+		},
+		{
+			"name" : "dsparse",
+			"sourceIndexes" : 
+			[
+				195
+			]
+		},
+		{
+			"name" : "wnd",
+			"sourceIndexes" : 
+			[
+				196,
+				197
+			]
+		},
+		{
+			"name" : "smartcard",
+			"sourceIndexes" : 
+			[
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205
+			]
+		},
+		{
+			"name" : "clipboard",
+			"sourceIndexes" : 
+			[
+				208,
+				209,
+				210
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				211
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/synch/address.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/synch/barrier.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/synch/critical.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/synch/event.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/synch/init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/synch/mutex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/synch/semaphore.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/synch/sleep.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/synch/synch.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/synch/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/synch/wait.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/locale/locale.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/library/library.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/file/generic.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/file/namedPipeClient.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/file/pattern.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/file/file.c",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/pipe/pipe.c",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/pipe/pipe.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/interlocked/interlocked.c",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/security/security.c",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/environment/environment.c",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crypto/hash.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crypto/rand.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crypto/cipher.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crypto/cert.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crypto/crypto.c",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/crypto/crypto.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/registry/registry_reg.c",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/registry/registry_reg.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/registry/registry.c",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/credentials/credentials.c",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/path/path.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/path/shell.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/io/device.c",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/io/io.c",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/io/io.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/memory/memory.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/memory/memory.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/input/virtualkey.c",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/input/scancode.c",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/input/keycode.c",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/shell/shell.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/heap/heap.c",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/ini.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/sam.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/ntlm.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/image.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/print.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/stream.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/strlst.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/debug.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/winpr.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/cmdline.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/ssl.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/Queue.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/Stack.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/PubSub.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/BipBuffer.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/BitStream.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/Reference.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/ArrayList.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/LinkedList.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/HashTable.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/ListDictionary.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/CountdownEvent.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/BufferPool.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/ObjectPool.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/StreamPool.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/MessageQueue.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/collections/MessagePipe.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/lodepng/lodepng.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/lodepng/lodepng.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/trio/strio.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/trio/trio.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/trio/trio.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/trio/triodef.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/trio/trionan.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/trio/trionan.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/trio/triop.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/trio/triostr.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/trio/triostr.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/wlog.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/wlog.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/Layout.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/Layout.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/Message.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/Message.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/DataMessage.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/DataMessage.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/ImageMessage.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/ImageMessage.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/PacketMessage.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/PacketMessage.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/Appender.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/Appender.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/FileAppender.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/FileAppender.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/BinaryAppender.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/BinaryAppender.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/CallbackAppender.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/CallbackAppender.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/ConsoleAppender.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/ConsoleAppender.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/utils/wlog/UdpAppender.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/utils/wlog/UdpAppender.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/error/error.c",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/timezone/timezone.c",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/timezone/TimeZones.c",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/timezone/WindowsZones.c",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/timezone/TimeZones.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/timezone/WindowsZones.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sysinfo/sysinfo.c",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/pool/synch.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/pool/work.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/pool/timer.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/pool/io.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/pool/cleanup_group.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/pool/pool.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/pool/pool.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/pool/callback.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/pool/callback_cleanup.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/handle/handle.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/handle/handle.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/handle/nonehandle.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/handle/nonehandle.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/thread/argv.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/thread/process.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/thread/processor.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/thread/thread.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/thread/thread.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/thread/tls.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/winsock/winsock.c",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/CredSSP/credssp.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/CredSSP/credssp.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/NTLM/ntlm_av_pairs.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/NTLM/ntlm_av_pairs.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/NTLM/ntlm_compute.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/NTLM/ntlm_compute.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/NTLM/ntlm_message.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/NTLM/ntlm_message.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/NTLM/ntlm.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/NTLM/ntlm.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/Kerberos/kerberos.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/Kerberos/kerberos.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/Negotiate/negotiate.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/Negotiate/negotiate.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/Schannel/schannel_openssl.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/Schannel/schannel_openssl.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/Schannel/schannel.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/Schannel/schannel.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/sspi_winpr.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/sspi_winpr.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/sspi_export.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/sspi_gss.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/sspi_gss.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspi/sspi.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/sspi/sspi.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/winhttp/winhttp.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/asn1/asn1.c",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/sspicli/sspicli.c",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crt/alignment.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crt/conversion.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crt/buffer.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crt/memory.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crt/unicode.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crt/string.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/crt/utf.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/crt/utf.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/bcrypt/bcrypt.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/rpc.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/ndr.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/ndr_array.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/rpc/ndr_array.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/ndr_context.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/rpc/ndr_context.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/ndr_correlation.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/rpc/ndr_correlation.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/ndr_pointer.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/rpc/ndr_pointer.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/ndr_private.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/rpc/ndr_private.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/ndr_simple.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/rpc/ndr_simple.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/ndr_string.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/rpc/ndr_string.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/ndr_structure.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/rpc/ndr_structure.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/ndr_union.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/rpc/ndr_union.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/rpc/midl.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/credui/credui.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/wtsapi/wtsapi.c",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/wtsapi/wtsapi_win32.c",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/wtsapi/wtsapi_win32.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/dsparse/dsparse.c",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/wnd/wnd.c",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/wnd/wnd.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/smartcard/smartcard.c",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/smartcard/smartcard.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/smartcard/smartcard_pcsc.c",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/smartcard/smartcard_pcsc.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/smartcard/smartcard_inspect.c",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/smartcard/smartcard_inspect.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/smartcard/smartcard_winscard.c",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/smartcard/smartcard_winscard.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/nt/nt.c",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/nt/ntstatus.c",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/clipboard/synthetic.c",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "winpr/libwinpr/clipboard/clipboard.c",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "winpr/libwinpr/clipboard/clipboard.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "out/build/x64-Debug(기본값)/winpr/libwinpr/version.rc",
+			"sourceGroupIndex" : 38
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

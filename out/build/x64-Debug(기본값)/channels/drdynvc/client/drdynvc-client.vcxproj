@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6354C0CC-B547-3F7E-A5EE-5DB84E236089}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>drdynvc-client</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">drdynvc-client.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">drdynvc-client</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSL-Win64\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값);C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\include;C:\Users\pumpk\Documents\FreeRDP-1\include;C:\Users\pumpk\Documents\FreeRDP-1\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\rdtk\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINPR_DLL;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0601;_WIN32_WINNT=0x0601;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WINPR_DLL;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0601;_WIN32_WINNT=0x0601;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSL-Win64\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값);C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\include;C:\Users\pumpk\Documents\FreeRDP-1\include;C:\Users\pumpk\Documents\FreeRDP-1\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\rdtk\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSL-Win64\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값);C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\include;C:\Users\pumpk\Documents\FreeRDP-1\include;C:\Users\pumpk\Documents\FreeRDP-1\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\winpr\include;C:\Users\pumpk\Documents\FreeRDP-1\rdtk\include;C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\channels\drdynvc\client\drdynvc_main.c" />
+    <ClInclude Include="C:\Users\pumpk\Documents\FreeRDP-1\channels\drdynvc\client\drdynvc_main.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

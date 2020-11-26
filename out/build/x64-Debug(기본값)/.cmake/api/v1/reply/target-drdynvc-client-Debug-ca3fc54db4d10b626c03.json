@@ -1,0 +1,237 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/drdynvc-client.lib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_channel_client_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"channels/CMakeLists.txt",
+			"channels/drdynvc/client/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 209,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 913,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 960,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 961,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 962,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1006,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1007,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1046,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1047,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS  /Gd /W3 -DWINPR_DLL /MDd /Zi /Ob2 /Od /RTC1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "FREERDP_EXPORTS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "UNICODE"
+				},
+				{
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"define" : "WINPR_EXPORTS"
+				},
+				{
+					"define" : "WINVER=0x0601"
+				},
+				{
+					"define" : "WITH_OPENSSL"
+				},
+				{
+					"define" : "_AMD64_"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"define" : "_WINSOCK_DEPRECATED_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/winpr/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/winpr/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/rdtk/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pumpk/Documents/FreeRDP-1/out/build/x64-Debug(기본값)/rdtk/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Channels/drdynvc/Client"
+	},
+	"id" : "drdynvc-client::@d8274a234d7f799d53c1",
+	"name" : "drdynvc-client",
+	"nameOnDisk" : "drdynvc-client.lib",
+	"paths" : 
+	{
+		"build" : "channels/drdynvc/client",
+		"source" : "channels/drdynvc/client"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "channels/drdynvc/client/drdynvc_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "channels/drdynvc/client/drdynvc_main.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

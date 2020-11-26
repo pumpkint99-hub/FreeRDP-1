@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\channels\urbdrc\client\data_transfer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\pumpk\Documents\FreeRDP-1\channels\urbdrc\client\urbdrc_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\pumpk\Documents\FreeRDP-1\channels\urbdrc\client\data_transfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\pumpk\Documents\FreeRDP-1\channels\urbdrc\client\urbdrc_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\urbdrc\common\urbdrc-common.dir\$(Configuration)\urbdrc_helpers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\pumpk\Documents\FreeRDP-1\out\build\x64-Debug(기본값)\channels\urbdrc\common\urbdrc-common.dir\$(Configuration)\msusb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{85789FFF-49AF-34F4-A3FB-CDDE4A45D85A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{D5DFB1C7-6FB3-381F-8CFE-13A4AAAA736C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A1E2FC5F-3729-3E29-BD6F-E859BE8AE0CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
