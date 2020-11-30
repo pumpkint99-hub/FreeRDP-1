@@ -154,9 +154,4 @@ packaging/deb/freerdp-nightly/freerdp-nightly-dbg
 .vscode
 cache/
 *.lastbuildstate
-*.obj
-*.obj
-*.pdb
-*.ilk
 *.tlog
-*.lastbuildstate
