@@ -153,3 +153,10 @@ packaging/deb/freerdp-nightly/freerdp-nightly-dbg
 # VisualStudio Code
 .vscode
 cache/
+*.lastbuildstate
+*.obj
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.lastbuildstate
